@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  
+  <style>
+    
+     .hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(32, 30, 63) 0%,
+    rgb(52, 52, 54) 35%,
+    rgb(39, 55, 58) 100%
+  );
+  background: linear-gradient(to right, #040404, #242424, #656565);
+  color: var(--primary-color);
+}
+    .header{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      border-color: gray;
+      border-width: 1px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+      height: 100px;
+    }
+    .sri{
+      height: 100px;
+      width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100%;
+        }
+        p{ 
+          color: bisque;
+          padding-bottom: 0;
+          margin-bottom:0;
+          font-size: 35px;
+          text-align: left;
+          margin-left: 35%;
+          font-weight: bold;
+          line-height: 50px;
+          padding-top: 0;
+        
+        }
+        #i{
+          color: rgb(182, 171, 171);
+          font-size: 18px;
+          line-height: 24px;
+          text-align: left; 
+          margin-left: 35% ;
+        }
+        .h4i{
+          margin-top: 10px;
+        }
+        span{
+          color:rgba(56, 56, 231);  
+        }
+        .letter-animation{
+        display: inline-block;
+        line-height: 34px;
+        font-size: 35px;
+        animation: type 5s  infinite;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 1px solid;
+        width: 10ch;
+       }
+      
+       
+        .colo{
+          color: rgb(170, 169, 170);
+        }
+        .colo{
+          
+          cursor: pointer;
+        }
+        .colo:hover{
+          color:rgb(241, 134, 134);
+        }
+        .colo.active{
+          opacity: 0.7;
+        }
+        .middle{
+          display:flex;
+          flex-direction: row;
+          height: 400px;
+          margin-top: 110px;
+        }
+        .mari{
+          height: 300px;
+          width: 300x;
+          margin-top: 18px;
+          margin-left: 350px;
+          border-radius: 100%;
+          
+          box-shadow:  10px 10px 7px rgba(116, 116, 235, 0.2);
+            }
+            .mari:hover{
+              margin-top: 10px;
+              margin-bottom: 10px;
+             
+            }
+            .down{
+              padding: 12px 12px;
+              margin-left: 35%;
+              background-color: rgb(56, 56, 231);
+              color: white;
+              font-size: 18px;
+              border: none;
+              border-radius: 10px;
+              cursor: pointer;
+              transition: 0.6s;
+            }
+            .down:hover{
+               background-color: rgb(16, 16, 88);       
+            }
+            .down:active{
+              opacity: 0.4;
+            }
+           
+          </style>
+</head>
+<body style="
+padding-bottom: 1000px;" class="hero">
+  <div class="header">
+    <div style="flex: 1;
+    margin-left: 50px;
+   ">
+      <img src="img/sri.jpg" class="sri"/></div>
+    <div class="d1" style="width: 100px;">
+      <a style="text-decoration: none" href="nmprog.html"><span class="colo"> HOME </span></a>
+     </div> 
+    <div class="d1" style="width: 100px;">
+      <a style="text-decoration: none" href="nmabout.html" target="_blank"><span class="colo"> ABOUT </span></a>
+      </div>
+    <div class="d1" style="width: 100px;">
+      <a style="text-decoration: none" href="nmskill.html" target="_blank"><span class="colo"> SKILLS </span></a>
+      </div>
+    <div class="d1" style="width: 100px;">
+      <a style="text-decoration: none" href="nmcontact.html" target="_blank"> <span class="colo"> CONTACT </span></a>
+     </div>
+  </div>
+  <div class="middle">
+     <div style="
+      width: 500px;">
+      <p>Hi !<br>
+        I&apos;m <span class="letter-animation">SRI MARI</span><br>
+       FrontEnd Developer</p><br>
+      <div id="h4i">
+        <h4 id="i">This is my official portfolio to show my details and my skills.</h4>
+      </div>
+    <a href="img/resumesri.png"> <button class="down">Download CV</button></a> 
+      </div>
+      <div style="
+       width: 500px;" class="avatar-img">
+        <img src="img/avatar.jpg" class="mari" >
+      </div>
+  </div>   
+  
+ 
+</body>
+</html>
